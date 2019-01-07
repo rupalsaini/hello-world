@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i;
+clrscr();
+printf("alphabets are:");
+for(i=97;i<=122;i++)
+{
+printf("\n%c",i);
+}
+getch();
+}
