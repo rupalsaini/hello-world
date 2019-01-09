@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int nd,year,day,week;
+clrscr();
+printf("enter the no of days");
+scanf("%d",&nd):
+year=nd/365;
+week=(nd%365)/7;
+day=(nd%365)%7;
+printf("%d= %d year,%d week,%d day",nd,year,day,week);
+getch();
+}
