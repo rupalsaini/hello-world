@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,temp;
+clrscr();
+printf("enter the value of a:\n enter the value of b:")
+scanf("%d\n%d",&a,&b);
+temp=a;
+a=b;
+b=temp;
+printf("%d%d",a,b,temp);
+getch():
+}
